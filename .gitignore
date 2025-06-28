@@ -1,0 +1,15 @@
+# Ignora o token do bot
+.env
+
+# Ignora pastas do Node
+node_modules/
+dist/
+build/
+
+# Ignora logs
+npm-debug.log
+yarn-error.log
+
+# Ignora arquivos do sistema
+.DS_Store
+

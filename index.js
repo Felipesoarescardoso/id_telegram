@@ -1,12 +1,12 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // 🔐 Seu token do BotFather
-const token = 'SEU_TOKEN_AQUI';
+const token = '7409480843:AAFm6dL_-fgc2kQkDKuPg4cdEu8YgiSR7cI';
 
 // Inicializa o bot
 const bot = new TelegramBot(token, { polling: true });
 
-// Quando o usuário enviar /start
+// Quando o usuário enviar start
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
 
